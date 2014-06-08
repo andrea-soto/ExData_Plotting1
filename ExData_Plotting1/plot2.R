@@ -15,6 +15,7 @@ plot2 <- function() {
      dateTime <- strptime(data$Date, "%d/%m/%Y %H:%M:%S")
  
      
+     
      #Graph
      png( file = "plot2.png")
      plot(auxDate, temp$Global_active_power, type="l", xlab ="", ylab = "Global Active Power (kilowatts)")

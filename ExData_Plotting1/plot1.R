@@ -10,6 +10,7 @@ plot1 <- function() {
      auxLevel <- factor("1/2/2007","2/2/2007")
      data <- subset( data,  Date == levels(auxLevel)[1] | Date == levels(auxLevel)[2])
 
+    
      
      #Graph
      png( file = "plot1.png")
